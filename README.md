@@ -72,7 +72,7 @@
 <body>
 
 <header>
-  <h1>Dr. John Mondaly</h1>
+  <h1>Dr. Mohid Mondaly</h1>
   <p>Medicine Practitioner & Executive Director</p>
   <p>Mondaly Hospital, Ontario</p>
 </header>
@@ -89,7 +89,7 @@
   <section id="about">
     <h2>About the Practitioner</h2>
     <div class="card">
-      <p>Dr. John Mondaly is a qualified medicine practitioner with extensive experience in patient care, hospital management, and healthcare leadership. He currently serves as the Executive Director of Mondaly Hospital, Ontario, where he oversees strategic planning, clinical excellence, and operational efficiency.</p>
+      <p>Dr. Mohid Mondaly is a qualified medicine practitioner with extensive experience in patient care, hospital management, and healthcare leadership. He currently serves as the Executive Director of Mondaly Hospital, Ontario, where he oversees strategic planning, clinical excellence, and operational efficiency.</p>
     </div>
   </section>
 
