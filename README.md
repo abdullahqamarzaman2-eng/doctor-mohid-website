@@ -12,10 +12,20 @@
       color: #333;
     }
     header {
-      background: #0f4c75;
+      background: linear-gradient(rgba(15,76,117,0.7), rgba(15,76,117,0.7)), url('Mohid.jpeg');
+      background-size: cover;
+      background-position: center;
       color: #fff;
-      padding: 30px 20px;
+      padding: 50px 20px;
       text-align: center;
+    }
+    .doctor-photo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      margin-bottom: 15px;
     }
     nav {
       background: #1b262c;
@@ -50,6 +60,16 @@
       border-radius: 6px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
+    .about-flex {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .about-flex img {
+      width: 180px;
+      border-radius: 8px;
+    }
     footer {
       background: #1b262c;
       color: #fff;
@@ -72,7 +92,8 @@
 <body>
 
 <header>
-  <h1>Dr. Mohid Mondaly</h1>
+  <img src="Mohid.jpeg" alt="Dr. Mohid Humayun" class="doctor-photo" />
+  <h1>Dr. Mohid Humayun</h1>
   <p>Medicine Practitioner & Executive Director</p>
   <p>Mondaly Hospital, Ontario</p>
 </header>
@@ -88,8 +109,14 @@
 
   <section id="about">
     <h2>About the Practitioner</h2>
-    <div class="card">
-      <p>Dr. Mohid Mondaly is a qualified medicine practitioner with extensive experience in patient care, hospital management, and healthcare leadership. He currently serves as the Executive Director of Mondaly Hospital, Ontario, where he oversees strategic planning, clinical excellence, and operational efficiency.</p>
+    <div class="card about-flex">
+      <img src="Mohid.jpeg" alt="Dr. Mohid Humayun" />
+      <p>
+        Dr. Mohid Humayun is a qualified medicine practitioner with extensive experience
+        in patient care, hospital management, and healthcare leadership. He currently
+        serves as the Executive Director of Mondaly Hospital, Ontario, where he oversees
+        strategic planning, clinical excellence, and operational efficiency.
+      </p>
     </div>
   </section>
 
@@ -125,7 +152,7 @@
 </div>
 
 <footer>
-  <p>&copy; 2025 Dr. Mohid Humayun | Mondaly Hospital Ontario</p>
+  <p>© 2025 Dr. Mohid Humayun | Mondaly Hospital Ontario</p>
 </footer>
 
 </body>
