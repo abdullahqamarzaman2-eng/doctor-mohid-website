@@ -125,9 +125,8 @@
 </div>
 
 <footer>
-  <p>&copy; 2025 Dr. John Mondaly | Mondaly Hospital Ontario</p>
+  <p>&copy; 2025 Dr. Mohid Humayun | Mondaly Hospital Ontario</p>
 </footer>
 
 </body>
 </html>
-
